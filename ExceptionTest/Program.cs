@@ -25,6 +25,10 @@ namespace ExceptionTest
             {
                 Console.WriteLine($"Error: {e.Message}");
             }
+            finally
+            {
+                Console.WriteLine("Obrigado por ter utilizado este programa!");
+            }
         }
     }
 }
